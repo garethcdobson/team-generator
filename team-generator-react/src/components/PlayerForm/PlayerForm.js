@@ -6,10 +6,11 @@ class PlayerForm extends Component {
 
      constructor(props) {
           super(props);
+
           this.state = { 
                name: '',
-               players: [],
           };
+
           this.handleChangeName = this.handleChangeName.bind(this);
           this.handleSubmit = this.handleSubmit.bind(this);
      }
@@ -20,9 +21,7 @@ class PlayerForm extends Component {
 
      handleSubmit(e){
           e.preventDefault();
-          this.setState({
-               players: [...this.state.players, this.state.name]
-          });
+          this.props.addPlayer(this.state.name);
      }
      
      render() {
