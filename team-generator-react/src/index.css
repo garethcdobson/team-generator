@@ -21,9 +21,18 @@ code {
 
 /* FOOTER */
 .page-footer {
-     position: absolute;
-     bottom: 0;
-     width: 100%;
+     margin-top: 15px;
+     padding: 15px;
+     text-align: center;
+}
+
+/* BASIC CONTAINER */
+.container {
+     max-width: 500px;
+     margin: auto;
+     margin-top: 10px;
      padding: 20px;
+     border: 1px grey solid;
+     background-color: rgb(241, 241, 241);
      text-align: center;
 }
