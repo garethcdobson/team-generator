@@ -1,12 +1,13 @@
 import React from 'react';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 function App() {
      return (
-          <div className="App">
-               <header>
-                    <h1>Random Football Team Generator</h1>
-               </header>
-          </div>
+          <>
+               <Header />
+               <Footer />
+          </>
      );
 }
 
