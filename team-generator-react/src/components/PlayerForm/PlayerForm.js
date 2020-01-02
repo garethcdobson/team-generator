@@ -33,7 +33,7 @@ class PlayerForm extends Component {
                               <div className="d-flex">
                                    <Form.Control 
                                         type="text" 
-                                        placeholder="Enter name" 
+                                        placeholder="Enter player name..." 
                                         className="m-1"
                                         value={ this.state.name } 
                                         onChange={ this.handleChangeName }  
