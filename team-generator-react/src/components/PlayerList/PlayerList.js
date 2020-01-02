@@ -37,6 +37,12 @@ class PlayerList extends Component {
                          </Button>
 
                          <Button 
+                              variant="outline-dark" 
+                              className="col-12 mt-2">
+                              Delete Last Player
+                         </Button>
+
+                         <Button 
                               onClick={ this.handleClear }
                               variant="outline-dark" 
                               className="col-12 mt-2">
