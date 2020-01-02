@@ -16,3 +16,9 @@ export const generateTeams = () => {
           type: "generateTeams",
      }
 };
+
+export const deletePlayer = () => {
+     return {
+          type: "deletePlayer",
+     }
+};

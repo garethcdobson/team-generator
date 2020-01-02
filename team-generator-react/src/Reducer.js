@@ -26,11 +26,22 @@ const generateTeams = (state) => ({
      teamB: state.players.slice((state.players.length / 2), state.players.length),
 });
 
+function removeLastItem(arr) {
+     arr.pop();
+     return arr;
+};
+
+const deletePlayer = (state) => ({
+     ...state,
+     players: removeLastItem(state.players),
+});
+
 const reducer = (state, action) => {
      switch (action.type) {
           case "addPlayer": return addPlayer(state, action);
           case "clearList": return clearList();
           case "generateTeams": return generateTeams(state, action);
+          case "deletePlayer": return deletePlayer(state, action);
           default: return state;
      }
 };
