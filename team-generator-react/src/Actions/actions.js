@@ -10,3 +10,9 @@ export const clearList = () => {
         type: "clearList",
      };
 };
+
+export const generateTeams = () => {
+     return {
+          type: "generateTeams",
+     }
+};

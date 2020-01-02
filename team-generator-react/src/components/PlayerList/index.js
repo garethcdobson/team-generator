@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import PlayerList from './PlayerList';
-import { clearList } from '../../Actions/actions';
+import { clearList, generateTeams } from '../../Actions/actions';
 
 const mapStateToProps = state => {
      return {
@@ -11,6 +11,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
      return {
           handleClear: () => dispatch(clearList()),
+          handleGenerate: () => dispatch(generateTeams()),
      };
 };
 
