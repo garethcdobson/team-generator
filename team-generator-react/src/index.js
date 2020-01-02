@@ -4,27 +4,8 @@ import './index.css';
 import App from './components/App';
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-
-const initial = {
-     players: [],
-};
-
-const addPlayer = (state, action) => ({
-     ...state,
-     players: [...state.players, action.players],
-});
-
-const clearList = () => ({
-     ...initial,
-});
-
-const reducer = (state, action, initial) => {
-     switch (action.type) {
-          case "addPlayer": return addPlayer(state, action);
-          case "clearList": return clearList();
-          default: return state;
-     }
-};
+import reducer from "./Reducer";
+import initial from "./initial";
 
 const store = createStore(
      reducer, 

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import PlayerForm from './PlayerForm';
-import { addPlayer } from '../../Actions/state';
+import { addPlayer } from '../../Actions/actions';
 
 const mapStateToProps = state => {
      return {
