@@ -14,9 +14,14 @@ const addPlayer = (state, action) => ({
      players: [...state.players, action.players],
 });
 
-const reducer = (state, action) => {
+const clearList = () => ({
+     ...initial,
+});
+
+const reducer = (state, action, initial) => {
      switch (action.type) {
           case "addPlayer": return addPlayer(state, action);
+          case "clearList": return clearList();
           default: return state;
      }
 };
@@ -29,10 +34,10 @@ const store = createStore(
 );
 
 const render = () => {
-     let state = store.getState();
+     // let state = store.getState();
      ReactDOM.render(
           <Provider store={ store }>
-               <App />,
+               <App />
           </Provider>,
           document.getElementById("root")
      ); 

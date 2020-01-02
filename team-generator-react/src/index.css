@@ -1,6 +1,5 @@
 body {
      margin: 0;
-     height: 100%;
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
      sans-serif;
@@ -20,9 +19,9 @@ code {
 }
 
 /* FOOTER */
-.page-footer {
+footer {
      margin-top: 15px;
-     padding: 15px;
+     padding: 20px;
      text-align: center;
 }
 

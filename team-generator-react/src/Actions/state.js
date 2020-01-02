@@ -1,7 +1,12 @@
 export const addPlayer = (player) => {
-     console.log(player)
      return {
           type: "addPlayer",
           players: player,
+     };
+};
+
+export const clearList = () => {
+     return {
+        type: "clearList",
      };
 };
