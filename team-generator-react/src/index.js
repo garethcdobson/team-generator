@@ -2,20 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/index';
-import { createStore } from "redux";
+import { createStore, compose } from "redux";
+import persistState from "redux-localstorage";
 import { Provider } from "react-redux";
 import reducer from "./Reducer";
 import initial from "./initial";
 
+const composeEnhancers =
+     window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+     
 const store = createStore(
-     reducer, 
+     reducer,
      initial,
-     window.__REDUX_DEVTOOLS_EXTENSION__
-     && window.__REDUX_DEVTOOLS_EXTENSION__(),
+     composeEnhancers(persistState())
 );
 
 const render = () => {
-     // let state = store.getState();
      ReactDOM.render(
           <Provider store={ store }>
                <App />
