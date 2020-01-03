@@ -10,10 +10,15 @@ class TeamList extends Component {
                teamB: this.props.teamB,
           };
           this.handleReset = this.handleReset.bind(this);
+          this.handleShuffle = this.handleShuffle.bind(this);
      }
 
      handleReset(){
           this.props.handleReset();
+     }
+
+     handleShuffle(){
+          this.props.handleShuffle();
      }
 
      render() {
@@ -47,6 +52,7 @@ class TeamList extends Component {
 
                     <div className="container">
                          <Button 
+                              onClick={ this.handleShuffle }
                               variant="outline-dark" 
                               className="col-12 mt-2">
                               Re-Shuffle

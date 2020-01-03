@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import TeamList from './TeamList';
-import { clearList } from '../../Actions/actions';
+import { clearList, generateTeams } from '../../Actions/actions';
 
 const mapStateToProps = state => {
      return {
@@ -12,6 +12,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
      return {
           handleReset: () => dispatch(clearList()),
+          handleShuffle: () => dispatch(generateTeams()),
      };
 };
 
