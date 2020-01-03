@@ -5,11 +5,15 @@ class TeamList extends Component {
 
      constructor(props) {
           super(props);
-
           this.state = { 
                teamA: this.props.teamA,
                teamB: this.props.teamB,
           };
+          this.handleReset = this.handleReset.bind(this);
+     }
+
+     handleReset(){
+          this.props.handleReset();
      }
 
      render() {
@@ -49,6 +53,7 @@ class TeamList extends Component {
                          </Button>
 
                          <Button 
+                              onClick={ this.handleReset }
                               variant="outline-dark" 
                               className="col-12 mt-2">
                               Reset
