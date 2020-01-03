@@ -24,6 +24,7 @@ const generateTeams = (state) => ({
      players: shuffle(state.players),
      teamA: state.players.slice(0, (state.players.length / 2)),
      teamB: state.players.slice((state.players.length / 2), state.players.length),
+     submitted: true,
 });
 
 function removeLastItem(arr) {

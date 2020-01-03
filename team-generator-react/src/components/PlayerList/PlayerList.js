@@ -33,12 +33,12 @@ class PlayerList extends Component {
      render() {
 
           let players = this.props.players;
-
+          
           return (
                <>
                     <div className="container">
                          <h2>Current Players</h2>
-                         <ul>
+                         <ul className="list-unstyled">
                               { players.map((value, index) => (
                                    <li key={ index }>
                                         <p>{ value }</p>

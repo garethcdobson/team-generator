@@ -6,7 +6,7 @@ const mapStateToProps = state => {
      return {
           players: state.players,
      }
-}
+};
 
 const mapDispatchToProps = dispatch => {
      return {
