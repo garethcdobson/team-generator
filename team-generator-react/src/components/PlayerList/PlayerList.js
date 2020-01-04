@@ -47,28 +47,34 @@ class PlayerList extends Component {
                          </ul>
                     </div>
 
-                    <div className="container">
-                         <Button 
-                              onClick={ this.handleDeleteLast }
-                              variant="outline-dark" 
-                              className="col-12 mt-2">
-                              Delete Last Player
-                         </Button>
+                    { players.length > 0 ? 
+                         <div className="container">
+                              <div>
+                                   <Button 
+                                        onClick={ this.handleDeleteLast }
+                                        variant="outline-dark" 
+                                        className="col-12 mt-2">
+                                        Delete Last Player
+                                   </Button>
+                                   
+                                   <Button 
+                                        onClick={ this.handleClear }
+                                        variant="outline-dark" 
+                                        className="col-12 mt-2">
+                                        Clear Players
+                                   </Button>
+                              </div>
 
-                         <Button 
-                              onClick={ this.handleClear }
-                              variant="outline-dark" 
-                              className="col-12 mt-2">
-                              Clear Players
-                         </Button>
-
-                         <Button 
-                              onClick={ this.handleGenerate }
-                              variant="outline-dark" 
-                              className="col-12 mt-2">
-                              Generate Teams
-                         </Button>
-                    </div>
+                              { players.length > 3 ?
+                                   <Button 
+                                        onClick={ this.handleGenerate }
+                                        variant="outline-dark" 
+                                        className="col-12 mt-2">
+                                        Generate Teams
+                                   </Button>
+                              : null }
+                         </div>
+                    : null }
                </>
           )
      }
