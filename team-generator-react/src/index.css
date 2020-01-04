@@ -84,7 +84,7 @@ h3 {
 }
 
 #playerName {
-     background-image: linear-gradient(rgb(33, 40, 61), rgb(24, 27, 37));
+     background-color: rgba(3, 7, 22);
      color: white;
 }
 
