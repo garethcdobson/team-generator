@@ -22,8 +22,9 @@ class PlayerForm extends Component {
 
      handleSubmit(e){
           e.preventDefault();
-          if(/^[a-zA-Z]+$/.test(this.state.name)){
+          if(/^[a-zA-Z\s]*$/.test(this.state.name)){
                this.props.addPlayer(this.state.name);
+               this.setState({ error: ''});
           }else{
                this.setState({ error: "Player name must contain only letters"})
           }
