@@ -9,11 +9,11 @@ const App = ({ submitted }) => (
           { submitted ? 
           <>
                <Teams className="content"/>
-               <Footer className="content"/>
+               <Footer />
           </> 
           :
           <>
-               <Players />
+               <Players className="content"/>
                <Footer />
           </>
           }

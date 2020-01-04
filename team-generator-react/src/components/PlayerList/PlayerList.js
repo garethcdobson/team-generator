@@ -36,7 +36,7 @@ class PlayerList extends Component {
           
           return (
                <>
-                    <div className="container">
+                    <div className="container player-list">
                          <h2>Current Players</h2>
                          <ul className="list-unstyled">
                               { players.map((value, index) => (
