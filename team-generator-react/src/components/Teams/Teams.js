@@ -7,7 +7,6 @@ const Teams = () => (
      <>
           <Header />
           <TeamList />
-          <Footer />
      </> 
 );
 
