@@ -9,20 +9,25 @@ class PlayerForm extends Component {
 
           this.state = { 
                name: '',
+               error: '',
           };
 
           this.handleChangeName = this.handleChangeName.bind(this);
           this.handleSubmit = this.handleSubmit.bind(this);
-     }
+     };
 
      handleChangeName(e) {
           this.setState({ name: e.currentTarget.value });
-     }
+     };
 
      handleSubmit(e){
           e.preventDefault();
-          this.props.addPlayer(this.state.name);
-     }
+          if(/^[a-zA-Z]+$/.test(this.state.name)){
+               this.props.addPlayer(this.state.name);
+          }else{
+               this.setState({ error: "Player name must contain only letters"})
+          }
+     };
      
      render() {
           return (
@@ -45,6 +50,7 @@ class PlayerForm extends Component {
                                         Add
                                    </Button>
                               </div>
+                              <span style={{color: "red", fontSize: "15px"}}>{ this.state.error }</span>
                               <Form.Text>Add a minimum of four players to generate teams.</Form.Text>
                          </Form.Group>
                     </Form>
