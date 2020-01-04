@@ -19,6 +19,14 @@ body {
      -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+     font-size: 15px;
+}
+
+h3 {
+     font-size: 22px;
+}
+
 @media(max-width: 600px) {
      h1 {
           font-size: 30px;
@@ -26,8 +34,11 @@ body {
      h2 {
           font-size: 20px;
      }
+     h3 {
+          font-size: 18px;
+     }
      p {
-          font-size: 15px;
+          font-size: 13px;
      }
 }
 
@@ -47,12 +58,13 @@ body {
      margin-top: 15px;
      padding: 20px;
      text-align: center;
-     background-color: rgba(0, 0, 0, 0.4);
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
 }
 
 /* HEADER */
 .page-header {
-     background-color: rgba(0, 0, 0, 0.4);
+     background-color: rgba(0, 0, 0, 0.5);
      text-align: center;
      padding: 20px;
 }
@@ -63,7 +75,7 @@ body {
      margin: auto;
      margin-top: 10px;
      padding: 20px;
-     border: 1px grey solid;
-     background-color: rgb(241, 241, 241);
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
      text-align: center;
 }

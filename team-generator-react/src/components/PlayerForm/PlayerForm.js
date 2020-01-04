@@ -45,14 +45,14 @@ class PlayerForm extends Component {
                                         onChange={ this.handleChangeName }  
                                    />
                                    <Button 
-                                        variant="outline-dark" 
+                                        variant="outline-light" 
                                         type="submit" 
                                         className="m-1">
                                         Add
                                    </Button>
                               </div>
                               <span style={{color: "red", fontSize: "15px"}}>{ this.state.error }</span>
-                              <Form.Text>Add a minimum of four players to generate teams.</Form.Text>
+                              <Form.Text><p>Add a minimum of four players to generate teams.</p></Form.Text>
                          </Form.Group>
                     </Form>
                </>

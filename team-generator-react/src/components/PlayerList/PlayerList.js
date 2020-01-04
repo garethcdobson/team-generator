@@ -41,7 +41,7 @@ class PlayerList extends Component {
                          <ul className="list-unstyled">
                               { players.map((value, index) => (
                                    <li key={ index }>
-                                        <p>{ value }</p>
+                                        <h3>{ value }</h3>
                                    </li> 
                               ))}
                          </ul>
@@ -52,14 +52,14 @@ class PlayerList extends Component {
                               <div>
                                    <Button 
                                         onClick={ this.handleDeleteLast }
-                                        variant="outline-dark" 
+                                        variant="outline-light" 
                                         className="col-12 mt-2">
                                         Delete Last Player
                                    </Button>
                                    
                                    <Button 
                                         onClick={ this.handleClear }
-                                        variant="outline-dark" 
+                                        variant="outline-light" 
                                         className="col-12 mt-2">
                                         Clear Players
                                    </Button>
@@ -68,7 +68,7 @@ class PlayerList extends Component {
                               { players.length > 3 ?
                                    <Button 
                                         onClick={ this.handleGenerate }
-                                        variant="outline-dark" 
+                                        variant="outline-light" 
                                         className="col-12 mt-2">
                                         Generate Teams
                                    </Button>

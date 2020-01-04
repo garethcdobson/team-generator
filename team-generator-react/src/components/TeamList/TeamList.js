@@ -33,7 +33,7 @@ class TeamList extends Component {
                          <ul className="list-unstyled">
                               { teamA.map((value, index) => (
                                    <li key={ index }>
-                                        <p>{ value }</p>
+                                        <h3>{ value }</h3>
                                    </li> 
                               ))}
                          </ul>
@@ -44,7 +44,7 @@ class TeamList extends Component {
                          <ul className="list-unstyled">
                               { teamB.map((value, index) => (
                                    <li key={ index }>
-                                        <p>{ value }</p>
+                                        <h3>{ value }</h3>
                                    </li> 
                               ))}
                          </ul>
@@ -53,14 +53,14 @@ class TeamList extends Component {
                     <div className="container">
                          <Button 
                               onClick={ this.handleShuffle }
-                              variant="outline-dark" 
+                              variant="outline-light" 
                               className="col-12 mt-2">
                               Re-Shuffle
                          </Button>
 
                          <Button 
                               onClick={ this.handleReset }
-                              variant="outline-dark" 
+                              variant="outline-light" 
                               className="col-12 mt-2">
                               Reset
                          </Button>
