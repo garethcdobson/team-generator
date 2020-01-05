@@ -1,0 +1,37 @@
+@media(min-width: 600px) {
+     .wrapper {
+          display: flex;
+     }
+}
+
+@media(max-width: 600px) {
+     h1 {
+          font-size: 30px;
+     }
+     h2 {
+          font-size: 20px;
+     }
+     h3 {
+          font-size: 18px;
+     }
+     p {
+          font-size: 10px;
+     }
+     .shirtIconA {
+          margin: 3px;
+          height: 40px;
+          width: 40px;
+     }
+     .shirtIconB {
+          margin: 3px;
+          height: 40px;
+          width: 40px;
+     }
+}
+
+/* FOOTER STACK */
+@media(max-width: 700px) {
+     .footer {
+          display: block;
+     }
+}

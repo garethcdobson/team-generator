@@ -1,0 +1,18 @@
+.footer {
+     flex-shrink: 0;
+     margin-top: 15px;
+     padding: 20px;
+     text-align: center;
+     background-color: rgba(3, 7, 22, 0.9);
+     color: grey;
+     display: flex;
+     justify-content: space-around;
+}
+
+.footer a {
+     color: grey;
+}
+
+.footer a:hover {
+     color: white;
+}

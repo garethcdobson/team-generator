@@ -28,6 +28,24 @@ body {
   padding: 10px;
 }
 
+@font-face {
+  font-family: FootballFont;
+  src: url("./assets/NewAthleticM54-31vz.ttf");
+}
+p {
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.page-header {
+  background-color: rgba(3, 7, 22, 0.9);
+  text-align: center;
+  padding: 20px;
+}
+
 .footer {
   flex-shrink: 0;
   margin-top: 15px;
@@ -47,14 +65,6 @@ body {
   color: white;
 }
 
-/* HEADER */
-.page-header {
-  background-color: rgba(3, 7, 22, 0.9);
-  text-align: center;
-  padding: 20px;
-}
-
-/* BASIC CONTAINER */
 .container {
   max-width: 600px;
   margin: auto;
@@ -104,7 +114,7 @@ body {
   }
 
   p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .shirtIconA {
@@ -124,17 +134,6 @@ body {
   .footer {
     display: block;
   }
-}
-@font-face {
-  font-family: FootballFont;
-  src: url("./assets/NewAthleticM54-31vz.ttf");
-}
-p {
-  font-size: 15px;
-}
-
-h3 {
-  font-size: 22px;
 }
 
 /*# sourceMappingURL=index.css.map */
