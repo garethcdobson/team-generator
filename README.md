@@ -40,7 +40,26 @@ When the MVP is achieved, I would like to improve the app with two additional fe
 2. The addition of player icons to make the app's interface more visually engaging. 
 
 ## Technology/Skills Used
-React, Redux, Javascript, HTML, CSS, SASS, Git, Wireframing
+React, Redux, Javascript, HTML, CSS, SASS, Git, Wireframing.
+
+## App Features
+1. Support for n-a-side, where a list of players of any length can be split into two teams (above four, see below).
+2. Ensures a minimum of four players are input before teams can be generated.
+3. Client-side JS validation to ensure only letters and spaces are input in player name.
+4. Function that generates random teams based on the Fisher-Yates Shuffle.
+5. Function for deleting last player and clearing all players if required.
+6. Function for re-shuffling teams.
+7. Function to reset site.
+8. Responsive design.
+9. Player-shirt icons to make the app more visually engaging.
+
+## Testing
+The web app has been tested across a range of devices (desktop, tablet, phones) and across a range of browsers (Safari, Firefox, Chrome, IE). I had issues with the desktop layout rendering properly on Safari, I eventually found that this was due to Safari's default CSS settings, this was corrected with a small change to the web app's CSS styling.
+
+## What I Would Like To Change
+1. With more time, I would like to add a feature for balancing teams based on ability. I figured out that if you input a player rating, you could write a conditional to check if the difference between the total ratings of the two newly generated teams was within a chosen range (similar to one another), only if this condition was met the generated teams would be rendered on screen, if not the teams would be reshuffled and checked against the conditional.
+2. I would also like to add colour picker components to enable the user to change the colours of the player-shirt icons.
+3. Lastly, I would of liked to minify my code in order to reduce the size of the project and complete more testing on performance and accessibility.
 
 ## Screenshots
 ### Desktop (Home Page)
