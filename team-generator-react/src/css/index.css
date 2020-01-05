@@ -33,11 +33,15 @@ body {
   src: url("./assets/NewAthleticM54-31vz.ttf");
 }
 p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 h3 {
   font-size: 22px;
+}
+
+.error {
+  color: red;
 }
 
 .page-header {
@@ -114,7 +118,7 @@ h3 {
   }
 
   p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .shirtIconA {
@@ -129,7 +133,6 @@ h3 {
     width: 40px;
   }
 }
-/* FOOTER STACK */
 @media (max-width: 700px) {
   .footer {
     display: block;

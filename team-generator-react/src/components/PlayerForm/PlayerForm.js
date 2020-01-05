@@ -51,7 +51,7 @@ class PlayerForm extends Component {
                                         Add
                                    </Button>
                               </div>
-                              <span style={{color: "red", fontSize: "15px"}}>{ this.state.error }</span>
+                              <p className="error">{ this.state.error }</p>
                               <Form.Text><p>Add a minimum of four players to generate teams.</p></Form.Text>
                          </Form.Group>
                     </Form>
