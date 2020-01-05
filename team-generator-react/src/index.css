@@ -48,6 +48,16 @@ h3 {
      padding: 20px;
      text-align: center;
      background-color: rgba(3, 7, 22, 0.9);
+     color: grey;
+     display: flex;
+     justify-content: space-around;
+}
+
+.footer a {
+     color: grey;
+}
+
+.footer a:hover {
      color: white;
 }
 
@@ -117,5 +127,12 @@ h3 {
           margin: 3px;
           height: 40px;
           width: 40px;
+     }
+}
+
+/* FOOTER STACK */
+@media(max-width: 700px) {
+     .footer {
+          display: block;
      }
 }
