@@ -34,7 +34,8 @@ class TeamList extends Component {
                               { teamA.map((value, index) => (
                                    <li key={ index }>
                                         <h3>{ value }</h3>
-                                   </li> 
+                                        <img src={require("../../assets/football-shirt.svg")}/>
+                                   </li>
                               ))}
                          </ul>
                     </div>
@@ -45,7 +46,8 @@ class TeamList extends Component {
                               { teamB.map((value, index) => (
                                    <li key={ index }>
                                         <h3>{ value }</h3>
-                                   </li> 
+                                        <img src={require("../../assets/football-shirt.svg")}/>
+                                   </li>
                               ))}
                          </ul>
                     </div>
