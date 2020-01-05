@@ -59,7 +59,7 @@ The web app has been tested across a range of devices (desktop, tablet, phones) 
 ## What I Would Like To Change
 1. With more time, I would like to add a feature for balancing teams based on ability. I figured out that if you input a player rating, you could write a conditional to check if the difference between the total ratings of the two newly generated teams was within a chosen range (similar to one another), only if this condition was met the generated teams would be rendered on screen, if not the teams would be reshuffled and checked against the conditional.
 2. I would also like to add colour picker components to enable the user to change the colours of the player-shirt icons.
-3. Lastly, I would of liked to minify my code in order to reduce the size of the project and complete more testing on performance and accessibility.
+3. Lastly, I would have liked to minify my code in order to reduce the size of the project and complete more testing on performance and accessibility.
 
 ## Screenshots
 ### Desktop (Home Page)
