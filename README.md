@@ -17,8 +17,8 @@ To create a tool which randomly picks a 5-a-side football team from a list of 10
 
 ## Wireframes
 ### MVP First Drafts (Desktop)
-![Wireframe Home](/wireframes/players.png)
-![Wireframe Home](/wireframes/teams.png)
+![Wireframe Players](/wireframes/players.png)
+![Wireframe Teams](/wireframes/teams.png)
 
 Decision to base the layout on central columns as this provides a simple layout that is similar on both large desktop screens and smaller mobile devices. The mobile version will stack central columns on the team page to produce a suitable layout for smaller width screens such as mobiles and tablets. The initial wireframes are produced with the minimum viable product in mind, a simple web-based app that enables the user to input player names, and clear them in cases of error, and generate two randomly selected teams from these names. The wireframes above support the input of any amount of players and thus two teams of any equal size - the content containers will simply expand and vertical scroll used to navigate the page. 
 
@@ -26,3 +26,17 @@ Decision to base the layout on central columns as this provides a simple layout 
 When the MVP is achieved, I would like to improve the app with two additional features: 
 1. The ability to input player ability and balance the teams based on this input. 
 2. The addition of player icons to make the app's interface more visually engaging. 
+
+## Screenshots
+### Desktop (Home Page)
+![Desktop Home Screen](/mockups/desktop-home.png)
+### Desktop (Teams Page)
+![Desktop Teams Screen](/mockups/desktop-teams.png)
+### Mobile (Home Page)
+![Mobile Home Screen](/mockups/mobile-home.png)
+### Mobile (Teams Page)
+![Mobile Teams Screen](/mockups/mobile-teams.png)
+### Tablet (Home Page)
+![Tablet Home Screen](/mockups/tablet-home.png)
+### Tablet (Teams Page)
+![Tablet Teams Screen](/mockups/tablet-teams.png)
