@@ -42,6 +42,16 @@ h3 {
      p {
           font-size: 13px;
      }
+     .shirtIconA {
+          margin: 3px;
+          height: 40px;
+          width: 40px;
+     }
+     .shirtIconB {
+          margin: 3px;
+          height: 40px;
+          width: 40px;
+     }
 }
 
 #root {
@@ -90,4 +100,14 @@ h3 {
 
 #playerName::placeholder {
      color: white;
+}
+
+.shirtIconA {
+     fill: lightskyblue;
+     margin: 5px;
+}
+
+.shirtIconB {
+     fill: red;
+     margin: 5px;
 }
