@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => (
      <header className="page-header text-light">
-          <h1>Football Team Generator</h1>
+          <h1>Random Team Generator</h1>
      </header>
 );
 
