@@ -1,5 +1,6 @@
 # Random Football Team Generator
 Technical code challenge set as the final component of the DevelopMe Coding Fellowship.
+Live site can be viewed here: https://garethcdobson.github.io/team-generator/
 
 ## Deadline
 Sunday 5th January 2019
