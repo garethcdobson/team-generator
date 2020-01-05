@@ -89,6 +89,12 @@ h3 {
      margin: 5px;
 }
 
+@media(min-width: 600px) {
+     .wrapper {
+          display: flex;
+     }
+}
+
 @media(max-width: 600px) {
      h1 {
           font-size: 30px;
