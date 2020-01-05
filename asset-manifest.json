@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/random-team-generator/static/css/main.daaa67ad.chunk.css",
+    "main.js": "/random-team-generator/static/js/main.7bae8f7e.chunk.js",
+    "main.js.map": "/random-team-generator/static/js/main.7bae8f7e.chunk.js.map",
+    "runtime-main.js": "/random-team-generator/static/js/runtime-main.096f0ce1.js",
+    "runtime-main.js.map": "/random-team-generator/static/js/runtime-main.096f0ce1.js.map",
+    "static/js/2.83937ac2.chunk.js": "/random-team-generator/static/js/2.83937ac2.chunk.js",
+    "static/js/2.83937ac2.chunk.js.map": "/random-team-generator/static/js/2.83937ac2.chunk.js.map",
+    "index.html": "/random-team-generator/index.html",
+    "precache-manifest.ec3eca3ef806c756f3e795ad01f323a3.js": "/random-team-generator/precache-manifest.ec3eca3ef806c756f3e795ad01f323a3.js",
+    "service-worker.js": "/random-team-generator/service-worker.js",
+    "static/css/main.daaa67ad.chunk.css.map": "/random-team-generator/static/css/main.daaa67ad.chunk.css.map",
+    "static/js/2.83937ac2.chunk.js.LICENSE": "/random-team-generator/static/js/2.83937ac2.chunk.js.LICENSE",
+    "static/media/index.css": "/random-team-generator/static/media/stadium.10ae5370.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.096f0ce1.js",
+    "static/js/2.83937ac2.chunk.js",
+    "static/css/main.daaa67ad.chunk.css",
+    "static/js/main.7bae8f7e.chunk.js"
+  ]
+}
