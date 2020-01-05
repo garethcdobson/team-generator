@@ -2,9 +2,20 @@
 Technical code challenge set as the final component of the DevelopMe Coding Fellowship.
 Live site can be viewed here: https://garethcdobson.github.io/team-generator/
 
-## Deadline
-Sunday 5th January 2019
-
+## Setup & Running Project
+Instructions to setup and run the project locally, npm package manager is required.
+Clone the git repo
+```
+git clone git@github.com:garethcdobson/team-generator.git
+```
+Run npm install
+```
+npm install
+```
+Run npm start, when packages are finished installing. Page will be viewable on localhost:3000
+```
+npm start
+```
 ## Brief
 To create a tool which randomly picks a 5-a-side football team from a list of 10 names (10 players = 2 teams of 5). Optional advanced features may include:
 
@@ -27,6 +38,9 @@ Decision to base the layout on central columns as this provides a simple layout 
 When the MVP is achieved, I would like to improve the app with two additional features: 
 1. The ability to input player ability and balance the teams based on this input. 
 2. The addition of player icons to make the app's interface more visually engaging. 
+
+## Technology/Skills Used
+React, Redux, Javascript, HTML, CSS, SASS, Git, Wireframing
 
 ## Screenshots
 ### Desktop (Home Page)
