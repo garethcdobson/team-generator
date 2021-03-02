@@ -1,6 +1,9 @@
 # Random Football Team Generator
-Technical code challenge set as the final component of the DevelopMe Coding Fellowship.
+Technical code challenge set as the final component of the DevelopMe Coding Fellowship. This project was completed in a total of nine days as per the project deadline.
 Live site can be viewed here: https://garethcdobson.github.io/team-generator/
+
+## Technology/Skills Used
+React, Redux, Javascript, HTML, CSS, SASS, Git, Wireframing.
 
 ## Setup & Running Project
 Instructions to setup and run the project locally, npm package manager is required.
@@ -16,6 +19,18 @@ Run npm start, when packages are finished installing. Page will be viewable on l
 ```
 npm start
 ```
+
+## Revisiting Project March 2021
+Having furthered my skills and commercial experience, I decided to revisit this project to identify any shortfalls and highlight possible enhancements to the codebase. I found:
+* The 'Add Player' input field does not clear on submission, forcing the user to clear the field manually before entering a new name, correcting this issue would greatly improve the UI of the app.
+
+* The app would greatly benefit from the addition of unit tests and/or end-to-end tests, using Jest, Cypress or React Testing Library for example. Tests are an essential part of the software development cycle and can help to identify bugs and improve code quality.
+
+* At the time of publishing the project, I neglected to make use of the tools available to analyse the accessibility of site. Having run the site through the WAVE Web Accessibility Evaluation Tool, I found that there was indeed an accessibility failure that could be corrected (displayed in the image below).
+
+![WAVE Accessibility Tool](https://user-images.githubusercontent.com/55451298/109723503-10b4bd00-7ba6-11eb-9cc9-ea89ca9fe2c5.png)
+
+## January 2020
 ## Brief
 To create a tool which randomly picks a 5-a-side football team from a list of 10 names (10 players = 2 teams of 5). Optional advanced features may include:
 
@@ -38,9 +53,6 @@ Decision to base the layout on central columns as this provides a simple layout 
 When the MVP is achieved, I would like to improve the app with two additional features: 
 1. The ability to input player ability and balance the teams based on this input. 
 2. The addition of player icons to make the app's interface more visually engaging. 
-
-## Technology/Skills Used
-React, Redux, Javascript, HTML, CSS, SASS, Git, Wireframing.
 
 ## App Features
 1. Support for n-a-side, where a list of players of any length can be split into two teams (above four, see below).
